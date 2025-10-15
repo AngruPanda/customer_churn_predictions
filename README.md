@@ -14,8 +14,8 @@
 Проведен корреляционный анализ и отсечены наиболее не важные признаки.
 Обучены и подобраны гиперпараметры для трех моделей, результаты получились такими:
 
-* RandomForestClassifier - ROC-AUC = 0.824
-* CatBoostClassifier - ROC-AUC = 0.897
+* RandomForestClassifier - ROC-AUC = 0.825
+* CatBoostClassifier - ROC-AUC = 0.880
 * Нейронная сеть - ROC-AUC = 0.815
 
 Лучшей моделью оказалась - модель бустинга CatBoostClassifier. Далее подтвердили метрику на тестовой выборке и построили confusion matrix для раных порогов.
